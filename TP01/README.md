@@ -40,3 +40,19 @@ exibir sua temperatura equivalente em Fahrenheit.
 11. A partir do diâmetro de um círculo que será digitado, calcular e exibir sua área.
 12. Calcular e exibir o volume de um cone a partir dos valores da altura e do raio da
 base que serão digitados.
+13. Calcular e exibir a velocidade final (em km/h) de um automóvel, a partir dos
+valores da velocidade inicial (em m/s), da aceleração (m/s2) e do tempo de percurso
+(em s) que serão digitados.
+14. Calcular e exibir o volume livre de um ambiente que contém uma esfera de raio
+“r” inscrita em um cubo perfeito de aresta “a”. Os valores de “r “ e “a” serão
+digitados.
+15. Entrar via teclado com o valor da cotação do dólar e uma certa quantidade de
+dólares. Calcular e exibir o valor correspondente em Reais (R$).
+16. Entrar via teclado com o valor de um ângulo em graus, calcular e exibir as
+seguintes funções trigonométricas: seno, cosseno, tangente e secante deste ângulo.
+Lembre-se que uma função trigonométrica trabalha em radianos.
+17. Entrar via teclado com dois valores quaisquer “X” e “Y”. Calcular e exibir o
+cálculo XY (“X” elevado a “Y”). Pesquisar as funções Exp e Ln.
+18. Entrar via teclado com o valor de cinco produtos. Após as entradas, digitar um
+valor referente ao pagamento da somatória destes valores. Calcular e exibir o troco
+que deverá ser devolvido.
