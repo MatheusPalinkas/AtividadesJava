@@ -1,10 +1,11 @@
 import java.util.Scanner;
 
 /**
- * @author Jo„o Paulo, Mateus Palinkas.
+ * @author Jo√£o Paulo, Mateus Palinkas.
  * 
- * 11.A partir do di‚metro de um cÌrculo que ser· digitado, calcular e
- * exibir sua ·rea.
+ * 13. Calcular e exibir a velocidade final (em km/h) de um autom√≥vel, a
+ * partir dos valores da velocidade inicial (em m/s), da acelera√ß√£o
+ * (m/s2) e do tempo de percurso (em s) que ser√£o digitados.
  */
 public class TP01Ex13 {
 
@@ -25,7 +26,7 @@ public class TP01Ex13 {
 		
 		velocidadeFinalKh = (velocidadeInicial + (aceleracao * tempo)) * CONSTANTE_MS_PARA_KH;
 
-		System.out.println("A velocidade final em kilometros por hora È: " + velocidadeFinalKh);
+		System.out.println("A velocidade final em kilometros por hora √©: " + velocidadeFinalKh);
 	}
 
 }
