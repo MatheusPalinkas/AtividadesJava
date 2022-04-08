@@ -18,7 +18,7 @@ public class TP01Ex05 {
 		//volume = 4 / 3 * pi * raio
 		volume = (4 / 3) * Math.PI * (diametro / 2);
 
-		System.out.println("A area do quadrado é: " + volume);
+		System.out.println("O volume da esfera é: " + volume);
 	}
 
 }

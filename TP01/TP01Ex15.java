@@ -18,7 +18,7 @@ public class TP01Ex15 {
 		System.out.print("Entre com a quantia em dólares: ");
 		quantiaDolares = scan.nextDouble();
 
-		quantiaReais = quantiaDolares / cotacao;
+		quantiaReais = quantiaDolares * cotacao;
 
 		System.out.println("A quantia em Reais é: " + quantiaReais);
 	}
