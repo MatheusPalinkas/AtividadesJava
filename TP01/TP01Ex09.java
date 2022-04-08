@@ -1,12 +1,10 @@
-package TP01;
 import java.util.Scanner;
 
 /**
- * @author Jo�o Paulo, Mateus Palinkas.
+ * @author João Paulo, Mateus Palinkas.
  * 
- * 9.Calcular e exibir a tens�o de um determinado circuito eletr�nico a
- * partir dos valores da resist�ncia e corrente el�trica que ser�o
- * digitados. Utilize a lei de Ohm.
+ * 9. Calcular e exibir a tensão de um determinado circuito eletrônico a partir dos 
+ * valores da resistência e corrente elétrica que serão digitados. Utilize a lei de Ohm.
  */
 public class TP01Ex09 {
 
@@ -22,7 +20,7 @@ public class TP01Ex09 {
 
 		tensao = resistencia * corrente;
 
-		System.out.println("A tens�o do circuito �: " + tensao);
+		System.out.println("A tensão do circuito é: " + tensao);
 	}
 
 }

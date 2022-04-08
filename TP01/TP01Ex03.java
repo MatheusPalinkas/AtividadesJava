@@ -1,11 +1,10 @@
-package TP01;
 import java.util.Scanner;
 
 /**
- * @author Jo�o Paulo, Mateus Palinkas.
+ * @author João Paulo, Mateus Palinkas.
  * 
- * 3. Calcular e exibir a �rea de um quadrado a partir do valor de sua
- * diagonal que ser� digitado.
+ * 3. Calcular e exibir a área de um quadrado a partir do valor de sua
+ * diagonal que será digitado.
  */
 
 public class TP01Ex03 {
@@ -19,7 +18,7 @@ public class TP01Ex03 {
 
 		area = (diagonal * diagonal)/ 2;
 
-		System.out.println("A area do quadrado �: " + area);
+		System.out.println("A area do quadrado é: " + area);
 	}
 
 }

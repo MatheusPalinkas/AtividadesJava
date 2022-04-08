@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 /**
  * @author João Paulo e Matheus Palinkas
- * 10. Entrar via teclado com o valor de uma temperatura em graus Celsius, calcular e
-exibir sua temperatura equivalente em Fahrenheit.
+ * 10. Entrar via teclado com o valor de uma temperatura em graus Celsius, calcular e 
+ * exibir sua temperatura equivalente em Fahrenheit.
  */
 
 public class TP01Ex10 {

@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 /**
  * @author João Paulo e Matheus Palinkas
- * 6. Calcular e exibir a média aritmética de quatro valores quaisquer que serão
-digitados.
+ * 6. Calcular e exibir a média aritmética de quatro valores quaisquer que serão 
+ * digitados.
  */
 
 public class TP01Ex06 {

@@ -1,11 +1,10 @@
-package TP01;
 import java.util.Scanner;
 
 /**
- * @author Jo�o Paulo, Mateus Palinkas.
+ * @author João Paulo, Mateus Palinkas.
  * 
  * 5.Calcular e exibir o volume de uma esfera a partir do valor de seu
- * di�metro que ser� digitado.
+ * diâmetro que será digitado.
  */
 public class TP01Ex05 {
 
@@ -19,7 +18,7 @@ public class TP01Ex05 {
 		//volume = 4 / 3 * pi * raio
 		volume = (4 / 3) * Math.PI * (diametro / 2);
 
-		System.out.println("A area do quadrado �: " + volume);
+		System.out.println("A area do quadrado é: " + volume);
 	}
 
 }
