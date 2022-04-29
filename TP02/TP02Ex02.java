@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
 /**
- * @author João Paulo e Matheus Palinkas
+ * @author Joï¿½o Paulo e Matheus Palinkas
  * 
  *         2. Entrar via teclado com dez valores positivos. Consistir a
- *         digitação e enviar mensagem de erro, se necessário. Após a digitação,
- *         exibir: a. O maior valor; b. A soma dos valores; c. A média
- *         aritmética dos valores.
+ *         digitaï¿½ï¿½o e enviar mensagem de erro, se necessï¿½rio. Apï¿½s a digitaï¿½ï¿½o,
+ *         exibir: a. O maior valor; b. A soma dos valores; c. A mï¿½dia
+ *         aritmï¿½tica dos valores.
  */
 public class TP02Ex02 {
 	public static void main(String[] args) {
@@ -21,7 +21,7 @@ public class TP02Ex02 {
 				numeros[i] = scan.nextInt();
 				
 				if (numeros[i] <= 0) {
-					System.out.println("O valor que você digitou não era positivo");
+					System.out.println("O valor que vocÃª digitou nÃ£o era positivo");
 				} 
 			} while (numeros[i] <= 0);
 			
@@ -37,8 +37,10 @@ public class TP02Ex02 {
 
 		System.out.println("O maior numero digitado foi: "+ maiorNumero);
 
-		System.out.println("A soma dos valores digitados é: "+ soma);
+		System.out.println("A soma dos valores digitados Ã©: "+ soma);
 
-		System.out.println("A média dos valores digitados é: " + media);
+		System.out.println("A mÃ©dia dos valores digitados Ã©: " + media);
+
+		scan.close();
 	}
 }

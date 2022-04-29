@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * @author João Paulo e Matheus Palinkas
+ * @author Joï¿½o Paulo e Matheus Palinkas
  * 
  *         4. Armazenar seis valores em uma matriz de ordem 2x3. Apresentar os
  *         valores na tela.
@@ -25,6 +25,7 @@ public class TP02Ex04 {
 			}
 			System.out.println();
 		}
-
+		
+        scan.close();
 	}
 }
