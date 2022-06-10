@@ -1,6 +1,13 @@
+/**
+ * @author João Paulo e Matheus Palinkas
+ * Agora, desenvolva um programa capaz de testar a classe e os métodos desenvolvidos no
+ * exercício anterior.
+ */
+
+
 public class Index {
     public static void main(String[] args){
-        Hora meiaNoite = new Hora(0, 1, 1);
+        Hora2 meiaNoite = new Hora2(0, 1, 1);
         
         System.out.println("Meia Noite: ");
         System.out.println(meiaNoite.getHora1());
