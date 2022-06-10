@@ -7,7 +7,7 @@
 
 public class Index {
     public static void main(String[] args){
-        Hora2 meiaNoite = new Hora2(0, 1, 1);
+        Hora meiaNoite = new Hora(0, 1, 1);
         
         System.out.println("Meia Noite: ");
         System.out.println(meiaNoite.getHora1());
