@@ -19,16 +19,16 @@ public class Main {
         System.out.println("data: " + t1.getData());
         System.out.println("hora: " + t1.getHora());
         System.out.println("valor: " + t1.getValor());
+        System.out.println("");
 
 
         AmostraTemperatura t2 = new AmostraTemperatura();
 
-        System.out.println("Propriedades t2\n");
+        System.out.println("\nPropriedades t2\n");
         System.out.println("data: " + t2.getData());
         System.out.println("hora: " + t2.getHora());
         System.out.println("valor: " + t2.getValor());
-
-
+        System.out.println("");
 
         System.out.println("Alterando valores do t1\n");
 
@@ -36,7 +36,7 @@ public class Main {
         t1.setHora();
         t1.setValor();
 
-        System.out.println("Propriedades t1\n");
+        System.out.println("\nPropriedades t1\n");
         System.out.println("data: " + t1.getData());
         System.out.println("hora: " + t1.getHora());
         System.out.println("valor: " + t1.getValor());

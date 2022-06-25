@@ -1,7 +1,17 @@
 import java.util.Scanner;
 
+/**
+ * @author João Paulo e Matheus Palinkas
+ * - O construtor AmostraTemperatura deve nos permitir a digitação dos valores de data, hora e valor da temperatura;
+ * - Os outros dois construtores devem receber os valores de data, hora e valor sob a forma de parâmetros;
+ * - Os métodos setData(), setHora() e setValor() deve nos permitir alterar os valores das respectivas propriedades através da digitação de novos valores, setValor deve acrescer um a sequencia, toda vez que for chamado;
+ * - Os demais métodos *set* devem alterar os valores das propriedades a partir dos parâmetros recebidos;
+ * - O método getData() deve nos devolver a data no formato: dd/mm/aa;
+ * - O método getHora() deve nos devolver a hora no formato: hh:mm:ss.
+ */
+
 public class AmostraTemperatura  {
-    private int numseq;
+    private int numseq = 0;
     private float valor;
 
     private Data data;
@@ -37,7 +47,7 @@ public class AmostraTemperatura  {
     }
 
     public void setValor(float v){
-        this.valor = v;
+        this.valor = v; 
         this.numseq++;
     }
     

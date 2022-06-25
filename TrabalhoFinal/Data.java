@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * @author João Paulo e Matheus Palinkas
- * - Renomear as propriedades e métodos da classe Data,
+ * Renomear as propriedades e métodos da classe Data,
  * deixando-os de acordo com o padrão UML (métodos getters e setters).
  */
 
@@ -15,20 +15,20 @@ public class Data {
 
     private Scanner scan = new Scanner(System.in);
 
-    public Data() {
-        this.entraAno();
-        this.entraMes();
-        this.entraDia();
+    public Data() { 
+        this.setAno();
+        this.setMes();
+        this.setDia();
     }
 
     public Data(int d, int m, int a) {
-        this.entraAno(a);
-        this.entraMes(m);
-        this.entraDia(d);
+        this.setAno(a);
+        this.setMes(m);
+        this.setDia(d);
     }
 
 
-    public void entraDia(int d){
+    public void setDia(int d){
         int qtdDiasMes = quantidadeDiasNoMes(this.mes);
 
         if(d < 1 || d > qtdDiasMes){
@@ -39,7 +39,7 @@ public class Data {
         this.dia = d;
     }
 
-    public void entraMes(int m){
+    public void setMes(int m){
         if(m < 1 || m > 12){
             System.out.println("O mês deve ser um valor entre 1 e 12");
             return;
@@ -48,7 +48,7 @@ public class Data {
         this.mes = m;
     }
     
-    public void entraAno(int a){
+    public void setAno(int a){
         if(a <= 0){
             System.out.println("O valor do ano deve ser positivo");
             return;
@@ -58,7 +58,7 @@ public class Data {
     }
 
 
-    public void entraDia(){
+    public void setDia(){
         int d;
 
         do{
@@ -74,7 +74,7 @@ public class Data {
         this.dia = d;
     }
 
-    public void entraMes(){
+    public void setMes(){
         int m;
 
         do{
@@ -90,7 +90,7 @@ public class Data {
         this.mes = m;
     }
 
-    public void entraAno(){
+    public void setAno(){
         int a;
 
         do{
@@ -107,15 +107,15 @@ public class Data {
     }
 
 
-    public int retDia(){
+    public int getDia(){
         return this.dia;
     }
 
-    public int retMes(){
+    public int getMes(){
         return this.mes;
     }
 
-    public int retAno(){
+    public int getAno(){
         return this.ano;
     }
 
