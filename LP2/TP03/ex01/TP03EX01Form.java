@@ -23,6 +23,7 @@ public class TP03EX01Form extends JFrame
 
         configurarLayoutForm();
         instanciarCampos();
+        desabilitarCamposApenasLeitura();
         registrarEventos();
         adicionandoCamposPanel();
         
@@ -58,6 +59,13 @@ public class TP03EX01Form extends JFrame
         btnSair = new JButton("Sair");
     }
 
+    private void desabilitarCamposApenasLeitura(){
+        txtSoma.setEditable(false);
+        txtSubtracao.setEditable(false);
+        txtMultiplicacao.setEditable(false);
+        txtDivisao.setEditable(false);
+    }
+
     private void registrarEventos(){
         //Encerrar programa
         addWindowListener(new SairAction());
@@ -73,6 +81,15 @@ public class TP03EX01Form extends JFrame
         campos.add(txtDivisao);
 
         btnLimpar.addActionListener(new LimparAction(campos));
+
+        CalcularAction calcularAction = new CalcularAction(txtB, txtA)
+                                                .setCampoSoma(txtSoma)
+                                                .setCampoSubtracao(txtSubtracao)
+                                                .setCampoMultiplicacao(txtMultiplicacao)
+                                                .setCampoDivisao(txtDivisao);
+
+        btnCalcular.addActionListener(calcularAction);
+        
     }
 
     private void adicionandoCamposPanel(){
@@ -110,7 +127,6 @@ public class TP03EX01Form extends JFrame
 
     public static void main(String[] args) {
         TP03EX01Form f = new TP03EX01Form("Semana 4 - Exercicio 4");
-        f.setVisible(true);
-            
+        f.setVisible(true);          
     }
 }
